@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\mtcor\OneDrive\Área de Trabalho\Hash\.metadata\.plugins\org.eclipse.jdt.core
+2955714444.index
+716182117.index
+1865797976.index

@@ -1,0 +1,13 @@
+packege Main;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.security.NoSuchAlgorithmException;
+
+import Integridade.Hash;
+
+public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
+        String folderPath = "C:\\Users\\mtcor\\OneDrive\\Área de Trabalho\\Hash\\Virus";
+        Files.writeString(Path.of("listaDeHash.txt"), (new Hash()).doHashInFolder(folderPath));;
+    }
